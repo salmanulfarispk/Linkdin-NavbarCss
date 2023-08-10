@@ -1,0 +1,367 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+   
+    
+}
+header{
+    width: 100%;
+    height: 100px;
+    background-color: white;
+}
+.container{
+    width: 90%;
+    height: 80px;
+    background-color: white;
+    margin: auto;
+    display: flex;
+    
+}
+.logo{
+    width: 30%;
+    height: 90px;
+    background-color: white;
+   
+}
+#picture{
+    padding-left: 55px;
+    position: relative;
+    top: -7px;
+    left: -13px;
+    opacity: 1;
+    
+    
+   
+}
+.details{
+    width: 50% ;
+    height: 80px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+   
+    
+   
+}
+span{
+    font-size: smaller;
+    position: relative;
+    top: -7px;
+    color: black;
+    opacity: .8;
+}
+.jbs{
+    position: relative;
+    left: 20px;
+    top: -10px;
+
+    width: 100px;
+    height: 40px;
+    background-color: white;
+    text-align: center;
+    border-right: 1px solid black;
+
+    
+
+}
+.learn{
+    position: relative;
+    left: 75px;
+    width: 120px;
+    height: 80px;
+    background-color: white;
+    text-align: center;
+    padding-top: 20px;
+}
+.peo{
+    position: relative;
+    
+    left: 132px;
+    width: 120px;
+    height: 80px;
+    background-color: white;
+    text-align: center;
+    padding-top: 20px;
+}
+.dis{
+    position: relative;
+    left: 184px;
+    width: 120px;
+    height: 80px;
+    background-color: white;
+    text-align: center;
+    padding-top: 20px;
+}
+
+
+
+.last{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sign{
+    position: relative;
+    left: 50px;
+    top: -5px;
+    
+}
+.join{
+    position: relative;
+    top: -7px;
+    left: 15px ;
+    font-style: normal;
+   
+    font-weight: bold;
+}
+.si{
+     width: 90px;
+     height: 50px;
+    border-radius: 30px;
+    background-color: white ;
+    color: blue;
+    border-color: rgb(142, 142, 250);
+    position: relative;
+    left: -30px;
+}
+#jn{
+    width: 110px;
+     height: 50px;
+     border-radius: 30px;
+     background-color: white ;
+     color: rgb(0, 0, 0);
+     border: none;
+ }
+img{
+    opacity: .8;
+}
+img:hover{
+    opacity: 1;
+}
+span:hover{
+    opacity: 1;
+}
+#jn:hover{
+    background-color:rgb(245, 241, 241);
+}
+.si:hover{
+    background-color: rgb(213, 244, 255);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.main-container{
+
+    width: 100%;
+    height: 650px;
+    background-color: white;
+    display: flex;
+
+
+}
+
+.left-section{
+    width: 50%;
+    height: 550px;
+    background-color: white;
+    
+}
+h1{
+    padding-left: 100px;
+    padding-top: 40px;
+    font-size: 51px;
+    
+   color: rgb(189, 126, 31);
+   position: relative;
+   top: -25px ;
+   font-weight: lighter;
+  
+}
+.form-validation{
+    width: 60%;
+    height: 500px;
+    background-color: white;
+    margin-left: 100px;
+    margin-top: 20px;
+}
+.first{
+    width: 353px;
+    height: 50px;
+   border-radius: 5px;
+    padding-left: 22px;
+    position: relative;
+    top:4px;
+    background: transparent;
+   
+}
+.first:hover{
+    background-color: rgb(233, 233, 233);
+}
+
+
+#phone{
+    font-size: smaller;
+    color: rgb(63, 61, 61);
+    position: relative;
+    top: -2px;
+}
+
+
+.second{
+    width: 300px;
+    height: 50px;
+  border-top-left-radius: 5px ;
+  border-bottom-left-radius: 5px ;
+    padding-left: 22px;
+    position: relative;
+    top:4px;
+    border-right: none;
+    background: transparent;
+   
+}
+.second:hover{
+    background-color: rgb(233, 233, 233);
+
+}
+input{
+    outline:none;
+    
+}
+
+#pass{
+    font-size: smaller;
+    color: rgb(63, 61, 61);
+   margin-top: 10px;
+}
+.dummy{
+    display: flex;
+}
+ #test{
+    width: 40px;
+    height: 54px;
+    margin-top: 4px;
+    border-left: none;
+    background-color: white;
+    padding-right: 53px;
+    color: blue;
+    border-top-right-radius: 5px ;
+    border-bottom-right-radius: 5px ;
+
+ }
+#test:hover{
+   background-color: rgb(233, 233, 233) ;
+}
+.Forgot{
+ 
+   color: rgb(0, 0, 252);
+}
+#sigma{
+    width:360px;
+    height: 40px;
+    background-color: rgb(76, 76, 226);
+    border-radius: 23px;
+    color: white ;
+    border: none;
+}
+#sigma:hover{
+    background-color: rgb(78, 60, 156);
+}
+
+.Forgot:hover{
+    text-decoration: underline;
+}
+.one{
+    width: 160px;
+    height: 40px;
+    border-bottom: 1px solid rgb(141, 137, 137);
+    border-left: none;
+    border-top: none;
+    border-right: none;
+    background-color: white;
+    position: relative;
+    left: -7px;
+
+}
+.two{
+    width: 180px;
+    height: 40px;
+    border-bottom: 1px solid rgb(141, 137, 137);
+    border-left: none;
+    border-top: none;
+    border-right: none;
+    background-color: white;
+    margin-left: 3px;
+
+}
+#three{
+    position: relative;
+    top: 1px;
+    font-size: smaller;
+}
+
+
+#four{
+    width: 360px;
+    height: 50px;
+    border-radius: 23px;
+    background-color: white;
+
+}
+
+#five{
+    width: 360px;
+    height: 50px;
+    border-radius: 23px;
+    background-color: white;
+}
+
+#four:hover{
+    background-color: rgb(230, 211, 211);
+}
+#five:hover{
+    background-color: rgb(230, 211, 211);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.right-section{
+    width: 50%;
+    height: 600px;
+    background-color: white;
+}
+.final{
+    line-height: 650px ;
+    position: relative;
+    top: 20px;
+    left: 79px;
+
+}
